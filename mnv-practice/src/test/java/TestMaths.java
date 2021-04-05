@@ -33,6 +33,11 @@ public class TestMaths {
 	}
 	
 	@Test
+	public void testMul() {
+		assertEquals(12, maths.mul(3, 4));
+	}
+	
+	@Test
 	public void testZeroDiv() {
 		assertThrows(ArithmeticException.class, new Executable() {
 			public void execute() throws Throwable {

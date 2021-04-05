@@ -14,6 +14,10 @@ public class Maths {
 		return a/b;
 	}
 	
+	public int mul(int a, int b) {
+		return a*b;
+	}
+	
 	public int square(int a) {
 		return a*a;
 	}
